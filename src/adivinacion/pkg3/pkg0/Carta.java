@@ -5,13 +5,15 @@
  */
 package adivinacion.pkg3.pkg0;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author yoyo
  */
 public class Carta {
 
-    static Carta cartas[];
+    static ArrayList<Carta> cartas = new ArrayList<Carta>();
     String ruta;
     int valor;
 
