@@ -5,7 +5,7 @@
  */
 package adivinacion.pkg3.pkg0;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 import adivinacion.pkg3.pkg0.libreria.dominio;
 import java.util.Collections;
 
@@ -32,7 +32,6 @@ public class Funcionalidad {
             baraja();
             imprime();
             System.out.println("\n\nPiense en una carta y que se le quede... \n");
-            System.out.println("la cantidad de tiradas"+calculo(33, 3));
             juego(calculo(cant, 3));
             
             System.out.println("Desea volver a jugar? s/n");

@@ -12,8 +12,10 @@ import java.util.ArrayList;
  * @author yoyo
  */
 public class Carta {
-
     static ArrayList<Carta> cartas = new ArrayList<Carta>();
+    static ArrayList<Carta> grupo1=new ArrayList<Carta>();
+    static ArrayList<Carta> grupo2=new ArrayList<Carta>();
+    static ArrayList<Carta> grupo3=new ArrayList<Carta>();
     String ruta;
     int valor;
 
